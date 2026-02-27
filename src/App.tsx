@@ -35,6 +35,13 @@ import {
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
+// הוספת הייבוא של התמונות
+import img01 from './assets/01.jpg';
+import img02 from './assets/02.jpg';
+import img03 from './assets/03.jpg';
+import img04 from './assets/04.jpg';
+import img05 from './assets/05.jpg';
+
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
@@ -45,11 +52,11 @@ const PHONE_NUMBER = "050-000-0000"; // Placeholder
 const AUDIO_URL = "https://cdn.pixabay.com/download/audio/2022/03/15/audio_8b6b0e3f9e.mp3";
 
 const GALLERY_IMAGES = [
-  '/01.jpg',
-  '/02.jpg',
-  '/03.jpg',
-  '/04.jpg',
-  '/05.jpg'
+  img01,
+  img02,
+  img03,
+  img04,
+  img05
 ];
 
 const PACKAGES = [
